@@ -21,7 +21,7 @@ Here is a sequence diagram in which User 1 completes a game when User 2 and User
 sequenceDiagram
     actor User 1
     actor User 2
-    actor Server
+    actor User 3
     User 1->>Server: Completed Game Difficulty and Time
     Server->>User 1:Leaderboard information
     Server->>User 2:User 1 Completed Game
