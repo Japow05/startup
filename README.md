@@ -4,15 +4,12 @@
 
 My startup is to create a memory game in which a set of squares is labeled with a sequence of numbers, which will then be hidden. The goal of the player is to correctly select the buttons in the correct order, in which case the time taken will be recorded, stored, and shown on leaderboards.
 
-> [!NOTE]
-> This is a template for your startup application. You must modify this `README.md` file for each phase of your development. You only need to fill in the section for each deliverable when that deliverable is submitted in Canvas. Without completing the section for a deliverable, the TA will not know what to look for when grading your submission. Feel free to add additional information to each deliverable description, but make sure you at least have the list of rubric items and a description of what you did for each item.
-
-> [!NOTE]
-> If you are not familiar with Markdown then you should review the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We all know the basic memory games such as Simon and matching. However, sometimes they can be a little bland and repetitive. My startup aims to create a game that will bring another memory game that will help the stale memory market.
+
+A set of squares will be marked with a sequence of numbers for a few seconds. The numbers will then be hidden, and the user will then click the squares in the order provided. If the user gets the sequence of squares wrong, the squares will flash the order again for a few seconds and they will try again. When they complete the order successfully, the website will show the time taken to complete the game and store it in a leaderboard. There will be difficulty selection from a sequence of 10 squares up to 25 squares.
 
 ### Design
 
@@ -29,33 +26,35 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Tiered difficulty with accompanying leaderboard categories
+- Secure login and storage of best times
+- Display and hiding of the sequence of squares
+- Feedback and reset when clicking the wrong square
+- Automatic showing of completion times to those concurrently on the website
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Using correct HTML structure for application. At least 3 different pages, one for login, one for the memory game itself, and one for the leaderboards.
+- **CSS** - Usage of CSS to make the website look good on many different devices and screen types.
+- **React** - Provides login, difficulty selection and game buttons, interactive leaderboard with multiple tabs for different difficulties.
+- **Service** - Backend service with endpoints for:
+    - Login
+    - Retrieving best times on difficulties
+    - Logging new best times on difficulties
+- **DB/Login** - Persistent storage of difficulty and best times for user in a database. Secure login and registration. Anonymous users can still play the game, but will not log the time and difficulty into the leaderboard.
+- **WebSocket** - As a user completes a game, the difficulty and time taken is broadcasted to everybody else on the site.
 
 ## 🚀 Specification Deliverable
 
-> [!NOTE]
-> Fill in this sections as the submission artifact for this deliverable. You can refer to this [example](https://github.com/webprogramming260/startup-example/blob/main/README.md) for inspiration.
-
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Git commit requirement)
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology including your 3rd party API and use of WebSocket
+- [x] I completed the prerequisites for this deliverable (Git commit requirement)
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology including your 3rd party API and use of WebSocket
 - [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ## 🚀 AWS deliverable
