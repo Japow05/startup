@@ -47,6 +47,7 @@ I am going to use the required technologies in the following ways.
     - Login
     - Retrieving best times on difficulties
     - Logging new best times on difficulties
+    - Option to log in via a Google account through their login api
 - **DB/Login** - Persistent storage of difficulty and best times for user in a database. Secure login and registration. Anonymous users can still play the game, but will not log the time and difficulty into the leaderboard.
 - **WebSocket** - As a user completes a game, the difficulty and time taken is broadcasted to everybody else on the site.
 
