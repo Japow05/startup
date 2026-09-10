@@ -13,15 +13,19 @@ A set of squares will be marked with a sequence of numbers for a few seconds. Th
 
 ### Design
 
-![Design image](placeholder.png)
+![Design image](designPicture.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Here is a sequence diagram in which User 1 completes a game when User 2 and User 3 is on. User 1 also looks at the leaderboard to see where their score lies.
 
 ```mermaid
 sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
+    actor User 1
+    actor User 2
+    actor Server
+    User 1->>Server: Completed Game Difficulty and Time
+    Server->>User 1:Leaderboard information
+    Server->>User 2:User 1 Completed Game
+    Server->>User 3:User 1 Completed Game
 ```
 
 ### Key features
