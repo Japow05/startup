@@ -66,24 +66,24 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Rented EC2 server** - I did not complete this part of the deliverable.
-- [ ] **Leased domain name** - I did not complete this part of the deliverable.
-- [ ] **Server accessible** from my domain: [https://yourdomainnamehere.click](https://yourdomainnamehere.click) - I did not complete this part of the deliverable.
+- [x] **Rented EC2 server** - This is where my money is gonna go down the drain
+- [x] **Leased domain name** - 3 doler well spent
+- [x] **Server accessible** from my domain: [https://modernage.click](https://modernage.click)
 
 ## 🚀 HTML deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
+- [x] **HTML pages** - I created 4 pages that can be navigated through
+- [x] **Proper HTML element usage** - There was proper chunking of the information to ensure a smooth and organized webpage
+- [x] **Links** - I added relevant links
+- [x] **Text** - There is so much text in my html it can fill up a book
+- [x] **3rd party API placeholder** - The grading AI says that my Google Login placeholder is not sufficient enough because it's not reading external data, bruh
+- [x] **Images** - Just a placeholder image in the about html
+- [x] **Login placeholder** - Cool login screen, with option to play anonymously
+- [x] **DB data placeholder** - I did this, although I am not too sure what it entails
+- [x] **WebSocket placeholder** - I made it look like you can see what others are doing
 
 ## 🚀 CSS deliverable
 
