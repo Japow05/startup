@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -38,7 +38,7 @@
 
         </header>
 
-        <main class="container-fluid bg-primary-subtle text-center">
+        <main class="container-fluid bg-primary-subtle text-center text-primary-emphasis">
             <div>
                 <h1>Welcome to Memory Madness</h1>
                 <form method="get" action="play.html">
@@ -50,16 +50,16 @@
                         <span class="input-group-text">🔒</span>
                         <input class="form-control" type="password" id="password" placeholder="password"/>
                     </div>
-                    <button type="submit" id="login">Login</button>
-                    <button type="submit" id="accountCreate">Create</button>
+                    <button type="submit" class="btn btn-primary" id="login">Login</button>
+                    <button type="submit" class="btn btn-primary" id="accountCreate">Create</button>
 
                     <br/>
 
-                    <button type="button">Log in Via Google</button>
+                    <button type="button" class="btn btn-secondary" style="margin: 12px 12px;">Log in Via Google</button>
 
                     <br/>
                     <a href="play.html">
-                        <button type="button">Play Anonymously</button>
+                        <button type="button" class="btn btn-secondary">Play Anonymously</button>
                     </a>
                 </form>
             </div>
