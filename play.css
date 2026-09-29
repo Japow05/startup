@@ -1,0 +1,15 @@
+.players {
+    flex: 1;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.player-name {
+    color: rgb(169, 169, 169);
+}
+
+#player-messages {
+    padding-top: 0.25 em;
+    opacity: 0.7;
+}
+
