@@ -51,6 +51,10 @@ I am going to use the required technologies in the following ways.
 - **DB/Login** - Persistent storage of difficulty and best times for user in a database. Secure login and registration. Anonymous users can still play the game, but will not log the time and difficulty into the leaderboard.
 - **WebSocket** - As a user completes a game, the difficulty and time taken is broadcasted to everybody else on the site.
 
+## Notes
+
+Bootstrap version 5.3.8 does indeed exist, even though the ai says it doesn't.
+
 ## 🚀 Specification Deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
@@ -94,7 +98,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Use of a CSS framework** - I did do this
 - [x] **All visual elements styled using CSS** - My website looks like an actual website, not a great one, but one nonetheless.
 - [x] **Responsive to window resizing using flexbox and/or grid display** - My website can work for multiple different sizes.
-- [x] **Use of a imported font** - I did not complete this part of the deliverable.
+- [x] **Use of a imported font** - I did complete this part of the deliverable.
 - [x] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I did complete this
 
 ## 🚀 React part 1: Routing deliverable
