@@ -31,8 +31,6 @@ export default function App() {
                 </menu>
             </nav>
         </header>
-        
-    <main>Cool test</main>
 
     <Routes>
       <Route path='/' element={<Login />} exact />
