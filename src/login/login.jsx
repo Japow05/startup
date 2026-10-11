@@ -23,7 +23,7 @@ export function Login() {
                     <button type="button" id="googleApiButton" className="btn btn-secondary">Log in Via Google</button>
 
                     <br/>
-                    <a href="play.html">
+                    <a href="play">
                         <button type="button" className="btn btn-secondary">Play Anonymously</button>
                     </a>
                 </form>

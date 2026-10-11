@@ -2,9 +2,9 @@ import React from 'react';
 
 export function Scores() {
     return (
-        <main class="container-fluid bg-primary-subtle text-center text-primary-emphasis">
+        <main className="container-fluid bg-primary-subtle text-center text-primary-emphasis">
             <h3>2x5 Difficulty Times</h3>
-                <table class="table table-primary table-striped">
+                <table className="table table-primary table-striped">
                     <thead>
                         <tr>
                             <th>#</th>

@@ -13,7 +13,7 @@ export function Play() {
                 </div>
                 </div>
             <div className="container-fluid text-center">
-                <label for="timer">Time</label>
+                <label htmlFor="timer">Time</label>
                 <span id="timer">00:00.00</span>
                 <select name="Difficulties">
                     <option value="2x5grid">2x5 Grid</option>

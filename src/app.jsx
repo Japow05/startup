@@ -40,10 +40,10 @@ export default function App() {
       <Route path='*' element={<NotFound />} />
     </Routes>
 
-    <footer class="bg-primary text-white-50">
-            <div class="container-fluid">
-                <span class="text-reset">Jackson P</span>
-                <a class="text-reset" href="https://github.com/Japow05/startup">GitHub</a>
+    <footer className="bg-primary text-white-50">
+            <div className="container-fluid">
+                <span className="text-reset">Jackson P</span>
+                <a className="text-reset" href="https://github.com/Japow05/startup">GitHub</a>
             </div>
         </footer>
   </div>

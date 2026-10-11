@@ -2,8 +2,8 @@ import React from 'react';
 
 export function About() {
     return (
-        <main class="container-fluid bg-primary-subtle text-center text-primary-emphasis">
-            <div id="picture" class="picture-box"><img width="200px" src="designPicture.png" alt="Example drawing of the Memory Madness game"/></div>
+        <main className="container-fluid bg-primary-subtle text-center text-primary-emphasis">
+            <div id="picture" className="picture-box"><img width="200px" src="designPicture.png" alt="Example drawing of the Memory Madness game"/></div>
 
             <p>
                 Memory madness is a memory game in which you memorize the order of a set of buttons, and repeat the order back. There are many
